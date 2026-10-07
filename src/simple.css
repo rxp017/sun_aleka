@@ -1,0 +1,42 @@
+.console-shell { max-width:1120px; padding-top:24px; }
+.console-header { margin-bottom:24px; padding-bottom:18px; }
+.console-header .brand h1 { font-size:1.6rem; }
+.console-header .brand p,.local-status { display:none; }
+.time-settings { position:relative; order:3; font-size:.82rem; color:#71685d; }
+.time-settings>summary,.plan-actions>summary { padding:10px 0; list-style:none; }
+.time-settings>summary::after,.plan-actions>summary::after { content:' +'; color:#a9482c; }
+.time-settings[open] .timezone-field { position:absolute; right:0; top:44px; width:230px; background:#fffdf8; border:1px solid #d8d0c3; padding:18px; border-radius:8px; box-shadow:0 10px 25px #66513918; z-index:10; }
+.setup-strip { padding:0 0 20px; gap:12px; flex-wrap:wrap; }
+.setup-strip>div { flex-basis:60%; }.setup-strip strong { font-size:1.9rem; }
+.setup-strip p { font-size:1rem; }.setup-strip>span { width:100%; font-size:.8rem; margin-top:-3px; }
+.setup-strip .locate-main { background:transparent; color:#9b442b; border-color:#c6a893; }
+.mode-switcher { background:#eae3d6; border:0; border-radius:8px; padding:5px; gap:5px; }
+.mode-switcher button { padding:13px 10px; border:0; border-radius:5px; font-size:1rem; }
+.mode-switcher button.active { background:#fffdf8; box-shadow:0 1px 4px #64503c18; color:#9b442b; }
+.planner-heading { display:flex; flex-direction:row; text-align:left; align-items:center; margin-bottom:20px; }.planner-heading h2 { font-size:1.4rem; font-weight:500; }
+.plan-actions { position:relative; min-width:100px; font-size:.82rem; text-align:right; color:#71685d; }
+.plan-actions[open] .button-row { position:absolute; right:0; top:40px; z-index:10; padding:12px; background:#fffdf8; border:1px solid #d8d0c3; border-radius:8px; min-width:160px; box-shadow:0 10px 25px #66513918; flex-direction:column; align-items:stretch; }
+.mode-grid { grid-template-columns:minmax(0,420px) minmax(0,1fr); gap:28px; align-items:start; }
+.glass-card { box-shadow:none; }.glass-card__header { padding:18px 24px; }.glass-card__header h2 { font-size:1.05rem; }.glass-card__body { padding:24px; }
+.control-stack { gap:18px; }.field>span,.field>label { font-size:.9rem; }.field { gap:8px; }
+.inset-input { min-height:46px; height:46px; font-size:.98rem; background:#fffdf8; }.field-hint,.microcopy { font-size:.81rem; line-height:1.55; }
+.mechanical-button { font-size:1rem; min-height:50px; }.secondary-button { font-size:.85rem; padding:11px 14px; }.icon-button { width:auto; min-width:64px; height:46px; font-size:.82rem; padding:10px; }
+.autocomplete { top:78px; }.autocomplete li button { padding:12px; font-size:.95rem; }
+.optional-controls { margin-top:12px; border-top:1px solid #e6dece; padding-top:12px; }
+.optional-controls>summary { color:#71685d; font-size:.86rem; padding:4px 0; }.optional-controls[open]>summary { margin-bottom:14px; }
+.optional-controls .coordinate-form,.optional-controls>.field { margin-top:12px; }
+.pending-result { background:transparent; border:0; }.pending-result .glass-card__header { display:none; }.pending-result .glass-card__body { padding:32px 24px; }
+.pending-result .lcd-display { background:transparent; color:#302a23; padding:0; }.pending-result .lcd-label { display:none; }.pending-result .lcd-display strong { color:#302a23; font-size:2rem; font-weight:500; letter-spacing:-.035em; text-transform:none; }
+.pending-result .lcd-display p { color:#71685d; font-size:1rem; line-height:1.65; max-width:300px; margin:16px 0; }.pending-result .empty-instrument { display:none; }
+.lcd-display { background:#eadfcb; border-radius:8px; }.lcd-display strong { color:#914224; text-transform:none; }.lcd-display p,.lcd-label,.lcd-readings,.lcd-readings span { color:#675942; }.lcd-display p { font-size:.92rem; line-height:1.6; }
+.lcd-readings span { background:transparent; border:0; box-shadow:none; padding:0; font-size:.87rem; }
+.comparison-option { padding:15px; }.comparison-option strong { font-size:.9rem; }.comparison-option small,.comparison-option span { font-size:.75rem; }
+.lighting-list .vector,.lighting-list em { display:none; }.lighting-list article { grid-template-columns:minmax(0,1fr) auto; padding:18px 0; }.lighting-list strong { font-size:.95rem; }.lighting-list article small { font-size:.8rem; line-height:1.4; }.lighting-list time { font-size:1rem; white-space:nowrap; }
+.photo-clock { padding:20px; }.photo-clock strong { font-size:2rem; }.photo-clock span { font-size:.85rem; letter-spacing:0; text-transform:none; }
+.insight-card>span { font-size:.75rem; letter-spacing:0; }.insight-card strong { display:block; margin-top:8px; font-size:1.5rem; font-weight:500; }.insight-card p { font-size:.9rem; }
+.lighting-list article:nth-child(3) { opacity:.8; }.shadow-summary>div { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px 0; border-bottom:1px solid #e6dece; font-size:.95rem; }.shadow-summary strong { font-weight:500; color:#9b442b; }
+.map-disclosure,.daily-disclosure { border-top:1px solid #d8d0c3; margin-top:28px; padding:16px 0; }.map-disclosure>summary,.daily-disclosure>summary { font-size:.98rem; color:#71685d; }.map-disclosure[open]>summary,.daily-disclosure[open]>summary { margin-bottom:20px; }.map-dashboard { margin:0; }.daily-disclosure { margin-top:0; }.activity-planner { margin-top:0; }
+.global-location-help,.location-recovery { background:#f0e4d0; border:1px solid #dcc7a8; border-radius:8px; padding:18px; margin-bottom:20px; }.global-location-help>p { margin:0 0 14px; font-size:.95rem; line-height:1.5; }.location-help-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; }.location-help-grid small,.location-recovery small { display:block; font-size:.76rem; color:#71685d; line-height:1.5; margin-top:9px; }.location-recovery { margin:0; }.location-recovery p { font-size:.86rem; line-height:1.5; margin:0 0 12px; }
+.console-footer { margin-top:20px; font-size:.7rem; }.structure-editor>summary { font-size:.9rem; }.structure-editor .field { margin-top:12px; }
+@media(max-width:900px) { .mode-grid { grid-template-columns:minmax(0,1fr); gap:18px; }.pending-result { display:none; }.setup-strip>div { flex-basis:100%; }.setup-strip strong { font-size:2rem; }.setup-strip>span { width:auto; flex:1; margin:0; font-size:.76rem; }.planner-heading { flex-direction:row; } }
+@media(max-width:600px) { .console-shell { padding:20px 16px; }.brand { width:auto; flex-basis:auto; }.console-header { gap:16px; }.brand h1 { font-size:1.4rem; }.sun-mark { width:32px; height:24px; }.brand { gap:9px; }.sync-button { height:36px; padding:0 10px; margin-left:auto; font-size:.74rem; }.time-settings { font-size:.75rem; }.mode-switcher { grid-template-columns:repeat(2,minmax(0,1fr)); margin-bottom:22px; }.mode-switcher button { font-size:.9rem; height:44px; padding:8px; }.planner-heading h2 { font-size:1.2rem; }.plan-actions { min-width:80px; font-size:.76rem; }.glass-card__body { padding:20px; }.glass-card__header { padding:16px 20px; }.location-help-grid { grid-template-columns:minmax(0,1fr); gap:18px; }.lighting-list time { font-size:.92rem; }.lighting-list article { gap:12px; }.photo-clock strong { font-size:1.6rem; } }
